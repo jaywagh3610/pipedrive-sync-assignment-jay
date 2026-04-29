@@ -93,3 +93,8 @@ export interface PipedrivePerson {
   // Allow additional string keys for custom fields (like the hash-named fields in the JSON)
   [key: string]: any;
 }
+
+export interface Mapping {
+  pipedriveKey: string;
+  inputKey: string;
+}
